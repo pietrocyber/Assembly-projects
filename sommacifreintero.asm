@@ -20,6 +20,11 @@ main:
 	la a0, msg_output
 	li a7,4
 	ecall
+	
+	la a0, msg_negativo
+	li a7,4
+	ecall
+	
 	mv a0,t0
 	li a7,1
 	ecall
